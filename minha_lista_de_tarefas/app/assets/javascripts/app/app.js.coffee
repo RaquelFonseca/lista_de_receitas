@@ -1,0 +1,1 @@
+@app = angular.module 'minha_lista_de_tarefas', ['ui.router']

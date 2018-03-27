@@ -2,13 +2,15 @@
 <html>
   <head>
     <title>MinhaListaDeTarefas</title>
+    <%= stylesheet_link_tag "application" %>
+    <%= javascript_include_tag "application" %>
+    <%= csrf_meta_tags %>
     <%= csrf_meta_tags %>
 
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
-  <body>
-    <%= yield %>
+  <body ng-app="MinhaListaDeTarefas" ng-controller="applicationCtrl">
+  	{{test}}
+    <div ui-view><%= yield %></div>div>
   </body>
 </html>

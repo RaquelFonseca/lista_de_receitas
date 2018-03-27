@@ -1,0 +1,1 @@
+@pp = angular.module 'Veganizze'
