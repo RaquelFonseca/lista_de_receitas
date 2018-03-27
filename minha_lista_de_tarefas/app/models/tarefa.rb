@@ -1,4 +1,0 @@
-class Tarefa < ApplicationRecord
-end
-
-
