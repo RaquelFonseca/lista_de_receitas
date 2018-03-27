@@ -42,8 +42,6 @@ GEM
     addressable (2.5.2)
       public_suffix (>= 2.0.2, < 4.0)
     arel (8.0.0)
-    autoprefixer-rails (8.2.0)
-      execjs
     bindex (0.5.0)
     bootstrap-sass (3.2.0.2)
       sass (~> 3.2)
@@ -174,8 +172,7 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
-  autoprefixer-rails
-  bootstrap-sass (~> 3.2.0)
+  bootstrap-sass
   byebug
   capybara (~> 2.13)
   coffee-rails (~> 4.2)
