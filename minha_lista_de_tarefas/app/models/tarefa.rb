@@ -1,2 +1,4 @@
 class Tarefa < ApplicationRecord
 end
+
+
